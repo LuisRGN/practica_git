@@ -1,0 +1,11 @@
+{
+  "name": "practica_git",
+  "version": "1.0.0",
+  "description": "A brief description of what this project does and who it's for",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "MIT"
+}
