@@ -1,7 +1,6 @@
-# practica_git
+# practica git
 
 A brief description of what this project does and who it's for
-
 
 ## Environment Variables
 
@@ -10,7 +9,6 @@ To run this project, you will need to add the following environment variables to
 `API_KEY`
 
 `ANOTHER_API_KEY`
-
 
 ## Run Locally
 
@@ -38,7 +36,6 @@ Start the server
   npm run start
 ```
 
-
 ## Contributing
 
 Contributions are always welcome!
@@ -47,13 +44,10 @@ See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-
 ## Authors
 
 - [@octokatherine](https://www.github.com/octokatherine)
-
