@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0 # Importante para asegurar que se obtiene toda la historia del repo
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v6.0.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "feat: merge changes from ${{ github.ref }} to main"
