@@ -4,7 +4,7 @@
   "description": "A brief description of what this project does and who it's for",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jest ./src"
   },
   "author": "",
   "license": "MIT",
