@@ -58,4 +58,5 @@ Please adhere to this project's `code of conduct`.
 - [@cos4h](https://github.com/cos4h)
 - [@LuisRGN](https://github.com/LuisRGN)
 - [@Crlziito04](https://github.com/Crlziito04)
-
+- [@maccari78](https://github.com/maccari78)
+## Thanks to Thayrov and Kelly the best TAs  
