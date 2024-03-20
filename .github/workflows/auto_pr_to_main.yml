@@ -24,3 +24,6 @@ jobs:
           branch: ${{ replace(github.ref, 'refs/heads/', '') }}-automated-pr-to-main
           base: "main" # Rama hacia la que se quiere hacer el merge
           delete-branch: true # Opcional: elimina la rama después de hacer merge
+      - name: Metrics embed
+        uses: lowlighter/metrics@v3.34
+                
