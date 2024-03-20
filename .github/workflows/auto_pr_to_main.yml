@@ -2,9 +2,8 @@ name: Auto PR to Main on Push
 
 on:
   push:
-    branches:
-      - '**'
-      - '!main'
+    branches-ignore:
+      - 'main'
 
 jobs:
   create-pr:
