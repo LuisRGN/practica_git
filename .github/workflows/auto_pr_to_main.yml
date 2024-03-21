@@ -3,7 +3,7 @@ name: Auto PR to Main on Push
 on:
   push:
     branches-ignore:
-      - 'main'
+      - "main"
 
 jobs:
   create-pr:
@@ -21,7 +21,7 @@ jobs:
           echo "Branch name: $branch_name"
           echo "::set-output name=branch_name::$branch_name"
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN3 }}
+          TOKEN3: ${{ secrets.TOKEN3 }}
 
       - name: Pull Request created
         uses: peter-evans/create-pull-request@v6.0.2
