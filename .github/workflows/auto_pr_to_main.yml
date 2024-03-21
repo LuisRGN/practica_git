@@ -21,7 +21,7 @@ jobs:
           echo "Branch name: $branch_name"
           echo "::set-output name=branch_name::$branch_name"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN1 }}
 
       - name: Pull Request created
         uses: peter-evans/create-pull-request@v6.0.2
