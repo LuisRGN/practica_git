@@ -15,14 +15,15 @@ jobs:
           fetch-depth: 0
 
       - name: Create Pull Request
-        id: create_pr
-        env:
-          TOKEN3: ${{ secrets.TOKEN3 }}
-        run: |
-          branch_name=$(echo "${{ github.ref }}" | sed 's/refs\/heads\///')
-          echo "Branch name: $branch_name"
-          echo "::set-output name=branch_name::$branch_name"
-          echo Usando token $TOKEN3
+        uses: peter-evans/create-pull-request@v4
+        with:
+          commit-message: Cloud - Update available list
+          title: Cloud - Update available list
+          body: Cloud - Update available list
+          base: main
+          labels: automated-pr, Clouds & Regions
+          branch: cloud-update-advanced-params
+          delete-branch: true
 
       - name: Pull Request created
         uses: peter-evans/create-pull-request@v6.0.2
