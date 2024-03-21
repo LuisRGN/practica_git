@@ -17,17 +17,17 @@ jobs:
       - name: Create Pull Request
         id: create_pr
         env:
-          TOKEN2: ${{ secrets.TOKEN2 }}
+          TOKEN3: ${{ secrets.TOKEN3 }}
         run: |
           branch_name=$(echo "${{ github.ref }}" | sed 's/refs\/heads\///')
           echo "Branch name: $branch_name"
           echo "::set-output name=branch_name::$branch_name"
-          echo Usando token $TOKEN2
+          echo Usando token $TOKEN3
 
       - name: Pull Request created
         uses: peter-evans/create-pull-request@v6.0.2
         with:
-          token: ${{ secrets.TOKEN2 }}
+          token: ${{ secrets.TOKEN3 }}
           commit-message: "feat: merge changes from ${{ github.ref }} to main"
           title: "Automated PR to merge ${{ github.ref }} into main"
           body: "This is an automated pull request to update from branch ${{ github.ref }}"
