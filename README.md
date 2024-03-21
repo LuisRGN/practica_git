@@ -1,6 +1,5 @@
 # Practica_git
 
-
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
@@ -37,7 +36,7 @@ Start the server
 
 ## Contributing
 
-Contributions are always welcome
+Contributions are always welcome!
 
 See `contributing.md` for ways to get started.
 
