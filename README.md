@@ -2,7 +2,6 @@
 
 A brief description of what this project does and who it's for
 
-
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
@@ -10,7 +9,6 @@ To run this project, you will need to add the following environment variables to
 `API_KEY`
 
 `ANOTHER_API_KEY`
-
 
 ## Run Locally
 
@@ -38,20 +36,17 @@ Start the server
   npm run start
 ```
 
-
 ## Contributing
 
-Contributions are always welcome!
+Contributions are always welcome
 
 See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
-
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
 
 ## Authors
 
@@ -59,4 +54,5 @@ Please adhere to this project's `code of conduct`.
 - [@LuisRGN](https://github.com/LuisRGN)
 - [@Crlziito04](https://github.com/Crlziito04)
 - [@maccari78](https://github.com/maccari78)
-## Thanks to Thayrov and Kelly the best TAs  
+
+## Thanks to Thayrov and Kelly the best TAs
