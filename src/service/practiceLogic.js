@@ -105,3 +105,12 @@ const validateEmail = (email) => {
   var patron = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return patron.test(email);
 };
+
+const validateName = (nombre) => {
+  const regex = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ\s']+$/;
+  if (regex.test(nombre)) {
+    return true;
+  } else {
+    return false;
+  }
+};
