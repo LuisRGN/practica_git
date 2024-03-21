@@ -38,7 +38,7 @@ Start the server
 
 ## Contributing
 
-Contributions are always welcome!
+Contributions are always welcome
 
 See `contributing.md` for ways to get started.
 
