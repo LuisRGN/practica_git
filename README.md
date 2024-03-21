@@ -1,6 +1,5 @@
 # Practica_git
 
-This repository is to pratice git command and branch management
 
 ## Environment Variables
 
@@ -38,7 +37,7 @@ Start the server
 
 ## Contributing
 
-Contributions are always welcome!
+Contributions are always welcome
 
 See `contributing.md` for ways to get started.
 
