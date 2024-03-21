@@ -21,12 +21,12 @@ jobs:
           echo "Branch name: $branch_name"
           echo "::set-output name=branch_name::$branch_name"
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN1 }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN2 }}
 
       - name: Pull Request created
         uses: peter-evans/create-pull-request@v6.0.2
         with:
-          token: ${{ secrets.TOKEN1 }}
+          token: ${{ secrets.TOKEN2 }}
           commit-message: "feat: merge changes from ${{ github.ref }} to main"
           title: "Automated PR to merge ${{ github.ref }} into main"
           body: "This is an automated pull request to update from branch ${{ github.ref }}"
