@@ -27,7 +27,8 @@
 // Output: [2,3]
 
 /*
-otros ejercios que busque xD .... mas ejercicios y mas y mas y mas 
+otros ejercios que busque xD .... mas ejercicios y mas y mas y mas
+ya no sabemos que hacer  
 
 1) Programa una función que cuente el número de caracteres de una cadena de texto, pe. 
     miFuncion("Hola Mundo") devolverá 10.
