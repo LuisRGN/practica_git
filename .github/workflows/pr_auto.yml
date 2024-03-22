@@ -19,5 +19,5 @@ jobs:
           commit-message: update branch
           title: Update branch
           body: Credit new contributors by updating AUTHORS
-          branch: main
-          base: prueba
+          branch: prueba
+          base: main
